@@ -1,0 +1,40 @@
+#subtitulo-formulario{
+    color: #F17D50;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: xx-large;
+}
+
+button{
+    color:white;
+    background-color: #50A3A7;
+    padding: 1em;
+    border-radius: 4px;
+    display: inline-block;
+    margin:0 auto;
+}
+
+.formulario{
+    padding: 1em;
+}
+
+
+input{
+    width: 95%;
+    height: 1.5em;
+    padding:.5em;
+    margin:1em;
+    border-radius:4px;
+    box-shadow: 1px 1px 10px #50A3A7;;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: start;
+    margin-left: .5em;
+}
+
+.botao{
+    text-align: center;
+}
