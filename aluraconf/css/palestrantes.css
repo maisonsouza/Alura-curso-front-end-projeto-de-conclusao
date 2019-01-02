@@ -1,0 +1,48 @@
+
+
+#subtitulo-palestrantes{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+.painel-palestrantes figure{
+    display: inline-block;
+}
+
+.palestrantes{
+    background-color: #F17D50;
+    text-align: center;
+}
+
+.h3{
+    color:white;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.palestrante{
+    background-color: white;
+    padding: 1rem;
+    border-radius:10px;
+    margin: 0em 1em 1em 1em;
+    width: 220px;
+    vertical-align: top;
+}
+
+.imagem{
+    border-radius: 50%;
+}
+
+.cargo-palestrante{
+    font-weight: bold;
+}
+
+figcaption{
+    margin-top: 1em;
+}
+
+.palestra{
+    margin-top: 1em;
+}
