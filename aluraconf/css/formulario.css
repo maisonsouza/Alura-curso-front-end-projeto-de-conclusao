@@ -3,6 +3,7 @@
     text-transform: uppercase;
     padding: 1em;
     font-size: xx-large;
+    text-align: center;
 }
 
 button{
@@ -37,4 +38,8 @@ label{
 
 .botao{
     text-align: center;
+}
+
+#secao-formulario{
+    padding: 1rem;
 }

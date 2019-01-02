@@ -12,23 +12,25 @@
     <title>AluraConf</title>
 </head>
 <body>
-<header>
+<header class="menu">
     <nav>
-        <a>Sobre</a>
-        <a>Palestrantes</a>
+        <a id="link-sobre" href="#secao-sobre">Sobre</a>
+        <a href="#secao-palestrantes">Palestrantes</a>
     </nav>
     <h1 id="titulo-principal">AluraConf</h1>
     <h2 id="data-evento">30Maio|RIO</h2>
-    <a id="botao-inscricao" href="">Inscreva-se</a>
+    <a id="botao-inscricao" href="#secao-formulario">Inscreva-se</a>
 </header>
-<section class="cabecalho container">
+
+<section id="secao-sobre" class="container">
     <h2 class="subtitulo">Muito Conteúdo: do frontend ao backend</h2>
     <h3 id="postagem-data-evento">30 de Maio - na Cidade Maravilhosa</h3>
     <p id="texto">Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
         é uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX,
         além da parte de backend com Rest, Microservices e Big DATA. O Desenvolvedor atualizado vai estar aqui.</p>
 </section>
-<section class="palestrantes">
+
+<section id="secao-palestrantes">
     <h2 class="subtitulo" id="subtitulo-palestrantes">Palestrantes</h2>
     <h3 class="h3"> Aprenda com palestrantes que são referência no mercado</h3>
     <div class="painel-palestrantes">
@@ -70,7 +72,9 @@
         </figure>
     </div>
 </section>
-<section class="formulario">
+
+<section id="secao-formulario">
+    <div class="container">
     <h2 id="subtitulo-formulario">Seus Dados</h2>
     <form>
         <label>
@@ -86,9 +90,10 @@
         </div>
 
     </form>
-
+    </div>
 </section>
 
-
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
