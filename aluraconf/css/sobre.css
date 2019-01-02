@@ -1,0 +1,22 @@
+#subtitulo{
+    color:black;
+    font-size: 2em;
+    margin-top: 1rem;
+    margin-bottom: .5em;
+}
+
+#postagem-data-evento{
+    font-size: 1.5em;
+
+}
+
+section{
+    text-align: center;
+    margin:0 1em;
+}
+
+#texto{
+    text-align:center;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
